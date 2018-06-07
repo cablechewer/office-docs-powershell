@@ -1,3 +1,4 @@
+
 ---
 external help file: Microsoft.Exchange.ProvisioningAndMigration-Help.xml
 applicable: Exchange Server 2010, Exchange Server 2013, Exchange Server 2016, Exchange Online
@@ -18,6 +19,10 @@ By default, the import checks for duplication of items and doesn't copy the data
 This cmdlet is available only in the Mailbox Import Export role, and by default, that role isn't assigned to a role group. To use this cmdlet, you need to add the Mailbox Import Export role to a role group (for example, to the Organization Management role group). For more information, see the "Add a role to a role group" section in Manage role groups (https://technet.microsoft.com/library/jj657480.aspx).
 
 For information about the parameter sets in the Syntax section below, see Exchange cmdlet syntax (https://technet.microsoft.com/library/bb123552.aspx).
+
+This cmdlet cannot be used with the Exchange Online PST Ingestion Service.  If you wish to import PSTs into Exchange Online please use the steps the process outlined here:  
+https://support.office.com/en-us/article/overview-of-importing-your-organization-s-pst-files-to-office-365-ba688e0a-0fcb-4bd7-8e57-2b669564ea84?ui=en-US&rs=en-US&ad=US#BKMK_NetworkUpload
+
 
 ## SYNTAX
 
